@@ -8,23 +8,21 @@
     <style>
         body {
             background-color: rgb(89, 89, 215);
-            color: white;
+            color: white; /* Comentário em CSS */
             font: normal 20pt Arial;
         }
         h1 {
-            color: rgb(255, 255, 44);
+            color: rgb(255, 209, 44);
         }
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!--Isso é um comentário-->
     <p>já me livrei da maldição</p>
 
     <script>
-        
-        window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JS?')//Janela com botão Ok e Cancel
-        window.prompt('Qual é seu nome?')//Vai perguntar o nome...
+       var nome = window.prompt('Qual é seu nome?')//Vai perguntar o nome...
+       window.alert('É um prazer em te conhecer, ' + nome +'!') // Concatenação
     </script> 
 </body>
 </html>
