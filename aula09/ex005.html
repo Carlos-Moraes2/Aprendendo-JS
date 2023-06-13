@@ -18,7 +18,7 @@
     <h1>Iniciando estudos Dom</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em javaScript.</p>
-    <div class ="msg">Clique em mim</div>
+    <div id ="msg">Clique em mim</div>
     <script>
         
         var corpo = window.document.body
@@ -28,7 +28,7 @@
         d.style.background = 'green'
         d.innerText = 'Estou aguardando...'
         */
-       var d = window.document.querySelector('div.msg')
+       var d = window.document.querySelector('div#msg')
        d.style.background = 'blue' 
     </script>
 </body>
