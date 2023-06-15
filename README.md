@@ -54,8 +54,7 @@ ____
 - [ ] Exercícios JavaScript (Parte 8)
 - [ ] Aula 17 – Próximos Passos
 
-🌟 Desafios em JS - [Desafios em JS](https://Carlos-Moraes2
-.github.io/javascript/desafios-em-js.html)
+🌟 Desafios em JS - [Desafios em JS](https://https://github.com/Carlos-Moraes2/javascript/desafios-em-js.html)
 
 - [x] Desafio nº 1 -  
 - [x] Desafio nº 2 - 
