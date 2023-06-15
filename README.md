@@ -37,9 +37,9 @@ ____
 - [x] Aula 12 – Condições (Parte 2)
 - [x] Exercícios JavaScript (Parte 1) -
 - [x] Exercícios JavaScript (Parte 2) -
-- [x] Exercícios JavaScript (Parte 3) -
-🌟Módulo E: Repetições em JavaScript – 5 aulas:
+- [x] Exercícios JavaScript (Parte 3) 
 
+🌟Módulo E: Repetições em JavaScript – 5 aulas:
 - [ ] Aula 13 – Repetições (Parte 1)
 - [ ] Aula 14 – Repetições (Parte 2)
 - [ ] Exercícios JavaScript (Parte 4)
