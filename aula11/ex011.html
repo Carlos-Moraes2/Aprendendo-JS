@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naturalidade</title>
+    <title>Desafio aula 11</title>
 </head>
 <body>
-    <h1>Você é de que País?</h1>
-    <input type="text" name="text">
-    <input type="button" value="Verificar" onclick="verificar">
+    <h1>Qual seu país de origem?</h1>
+    <input type="text" name="origem" id="origem"> 
+    <input type="button" value="Enviar" onclick="saudar()">
+    <div id="res"></div>
+    <script>
+        function saudar() {
+            var pais = window.document.querySelector('input#origem')
+            var pais_string = pais.value
+            var resposta = window.document.querySelector('div#res')
+            if(pais_string != 'Brasil') {
+                resposta.innerHTML = `<p>Você é Estrangeiro! Digitou ${pais_string}</p>`
+             } else {
+                resposta.innerHTML = `<p>Você é Brasileiro!</p>`
+             }
+        }
+    </script>
 </body>
-
 </html>
